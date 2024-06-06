@@ -1,0 +1,39 @@
+h1 {
+    color: rgb(78, 53, 53);
+    font-size: 55px;
+    font-family: center ;
+}
+/* Đảm bảo rằng ảnh sẽ không bị tràn ra ngoài phần tử chứa */
+img {
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Để căn giữa nếu cần */
+
+}
+
+/* Đảm bảo rằng phần tử chứa ảnh không bị tràn màn hình */
+.container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+img {
+    padding: 10px 10px;
+    margin: block;
+    margin-bottom: 10px;
+    background-color: #ffe3e1;
+    color: #e67373;
+    border-radius: 20px;
+    
+    
+    
+}
+body {
+    background-color:#769e80 ;
+    color: #d7c2d8;
+    font-size: 20px;
+}
+h2 {
+    text-align: center;
+}
